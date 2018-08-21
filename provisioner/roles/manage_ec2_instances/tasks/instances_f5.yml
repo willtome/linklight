@@ -51,7 +51,6 @@
     instance_type: "{{ ec2_instance_types.rhel7.size }}"
     image: "{{ host1_ami.image_id }}"
     region: "{{ ec2_region }}"
-    exact_count: "{{ student_total }}"
     count_tag:
       Workshop_host1: "{{ec2_name_prefix}}-host1"
     wait: "{{ ec2_wait }}"
@@ -86,7 +85,6 @@
     instance_type: "{{ ec2_instance_types.rhel7.size }}"
     image: "{{ host1_ami.image_id }}"
     region: "{{ ec2_region }}"
-    exact_count: "{{ student_total }}"
     count_tag:
       Workshop_host2: "{{ec2_name_prefix}}-host2"
     wait: "{{ ec2_wait }}"

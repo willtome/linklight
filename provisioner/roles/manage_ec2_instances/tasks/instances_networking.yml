@@ -44,7 +44,6 @@
     instance_type: "{{ ec2_instance_types[rtr1_node].size }}"
     image: "{{ rtr1_ami.image_id }}"
     region: "{{ ec2_region }}"
-    exact_count: "{{ student_total }}"
     count_tag:
       Workshop_rtr1: "{{ec2_name_prefix}}-rtr1"
     wait: "{{ ec2_wait }}"
@@ -97,7 +96,6 @@
     instance_type: "{{ ec2_instance_types[rtr2_node].size }}"
     image: "{{ rtr2_ami.image_id }}"
     region: "{{ ec2_region }}"
-    exact_count: "{{ student_total }}"
     count_tag:
       Workshop_rtr2: "{{ec2_name_prefix}}-rtr2"
     wait: "{{ ec2_wait }}"
@@ -149,7 +147,6 @@
       instance_type: "{{ ec2_instance_types[rtr3_node].size }}"
       image: "{{ rtr3_ami.image_id }}"
       region: "{{ ec2_region }}"
-      exact_count: "{{ student_total }}"
       count_tag:
         Workshop_rtr3: "{{ec2_name_prefix}}-rtr3"
       wait: "{{ ec2_wait }}"
@@ -201,7 +198,6 @@
       instance_type: "{{ ec2_instance_types[rtr4_node].size }}"
       image: "{{ rtr4_ami.image_id }}"
       region: "{{ ec2_region }}"
-      exact_count: "{{ student_total }}"
       count_tag:
         Workshop_rtr4: "{{ec2_name_prefix}}-rtr4"
       wait: "{{ ec2_wait }}"
@@ -251,7 +247,6 @@
     instance_type: "{{ ec2_instance_types[host1_node].size }}"
     image: "{{ host1_ami.image_id }}"
     region: "{{ ec2_region }}"
-    exact_count: "{{ student_total }}"
     count_tag:
       Workshop_host1: "{{ec2_name_prefix}}-host1"
     wait: "{{ ec2_wait }}"

@@ -44,6 +44,9 @@ ansible_port={{ ssh_port }}
 {% endif -%}
 {% endfor -%}
 {% endif %}
+[rhel:children]
+{{ rhel }}
+
 [{{ rhel }}]
 node1.example.com
 node2.example.com

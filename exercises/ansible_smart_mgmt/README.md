@@ -3,16 +3,18 @@
 In this workshop you will learn how to get the most from Red Hat Smart Management subscription and the Ansible Automation Platform.
 
 ## Table of Contents
-- [Use Cases](#use-cases)
-- [Lab Diagram](#lab-diagram)
-- [Lab Setup](#lab-setup)
+- [Ansible Workshop - Smart Management Automation](#ansible-workshop---smart-management-automation)
+  - [Table of Contents](#table-of-contents)
+  - [Use Cases](#use-cases)
+  - [Lab Diagram](#lab-diagram)
+  - [Lab Setup](#lab-setup)
     - [Deployment](#deployment)
-    - [Objective](#objective)
-      - [Your Lab Environment](#your-lab-environment)
+    - [Configure](#configure)
       - [**Step 1 - Setup Ansible Tower**](#step-1---setup-ansible-tower)
       - [**Step 2 - Create a Project**](#step-2---create-a-project)
       - [**Step 3 - Create Job Template**](#step-3---create-job-template)
-- [Guide](#guide)
+    - [Your Workshop Environment](#your-workshop-environment)
+  - [Guide](#guide)
 
 ## Use Cases
 We will focus on 5 main customer pain points:
@@ -76,8 +78,8 @@ In this workshop you'll work in a pre-configured lab environment. You will have 
 ## Guide
 Workshop Presentation: [Partner Content Hub](http://redhat-partner.highspot.com)<br>
 *You will need a Red Hat Partner Connect account/login to access. Don't have one, look [here](https://connect.redhat.com/en/support)*
-* [Exercise 1: Compliance / Vulnerability Management](https://github.com/redhat-partner-tech/partner-tech-days-march2021/blob/main/integrated-mgmt-workshop/openscap-exercise.md)
-* [Exercise 2: Patch Management / OS](https://github.com/redhat-partner-tech/partner-tech-days-march2021/blob/main/integrated-mgmt-workshop/automated-patch-management.md)
+* [Exercise 1: Compliance / Vulnerability Management](2-compliance)
+* [Exercise 2: Patch Management / OS](3-patching)
 * Exercise 3: System Baseline / Drift (See presentation)
-* [Exercise 4: CentOS to RHEL conversion + upgrade](https://github.com/redhat-partner-tech/partner-tech-days-march2021/blob/main/integrated-mgmt-workshop/upgrade-exercise.md)
-* [Exercise 5: Custom Repositories](https://github.com/redhat-partner-tech/partner-tech-days-march2021/blob/main/integrated-mgmt-workshop/custom-repo-exercise.md)
+* [Exercise 4: CentOS to RHEL conversion + upgrade](4-convert2rhel)
+* [Exercise 5: Custom Repositories](5-customrepo)
